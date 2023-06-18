@@ -82,7 +82,7 @@ public class CommandWords
 //            System.out.print(i.next() + "  ");
 //        }
 //        System.out.println();
-        System.out.println("go, help, quit, take, drop, back, eat, trans, items,rest. ");
+        System.out.println("go, help, quit, take, drop, back, eat, trans, items, rest. ");
     }
 
 

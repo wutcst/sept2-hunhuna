@@ -44,6 +44,7 @@ public class BackCommand implements Action{
                 if(!player.moveHistory.empty()){
                     Room currentRoom = player.moveHistory.peek();
                     player.setCurrentRoom(currentRoom);
+                    player.currentStamina -= 5;
 //                System.out.println(player.moveHistory);
                     System.out.println(player.getCurrentRoom().getLongDescription());
                 }else{
